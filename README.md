@@ -2,6 +2,7 @@
 A backend to generate d3 graphics
 
 ## First Steps
+* Create a .env file for configs
 * `pipenv install`
 * `pipenv shell`
 * `uvicorn app:app` (you can add the option --reload if you want that the asgi server auto reloads when a change in the code is detected)
